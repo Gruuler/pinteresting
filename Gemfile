@@ -14,6 +14,9 @@ gem 'devise'
 
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
+gem 'aws-sdk', '~> 1.20.0'
+
+
 group :doc do
   gem 'sdoc', require: false
 end

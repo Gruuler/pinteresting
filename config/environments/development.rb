@@ -29,6 +29,6 @@ Pintresting::Application.configure do
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
-  Paperclip.options[:command_path] = "/c/Program Files/ImageMagick-6.8.9-Q16/"
-
+  Paperclip.options[:command_path] = 'C:\Program Files\ImageMagick-6.7.6-3-Q16'
+  Paperclip.options[:swallow_stderr] = false
 end
